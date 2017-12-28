@@ -45,4 +45,4 @@ server.get('/video', (req, res) => {
 })
 
 // Start server
-server.listen(port, host, () => console.log('Listening on port 3000'))
+server.listen(port, host, () => console.log(`Listening on port ${port}`))
