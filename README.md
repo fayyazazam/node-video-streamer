@@ -8,6 +8,6 @@ Stream VODs (.mp4s) to local network.
 ## How to run
 - Find out your ip address if you want to serve locally
 - Replace the start server ip in `server.js` and src ip address in `index.html`
-- Put video in `videos/` folder
+- Put video in `videos/` folder and modify video link in `server.js`
 - Run `node server.js`
 
